@@ -1,0 +1,119 @@
+@media (min-width:1200px){
+    .page_heading_About{
+        /* visibility: hidden; */
+        background-color:#082644;
+    }
+    .about_bg{
+        position: relative;
+        width: 100vw;
+        /* height: 1200px; */
+        /* background-color: #061b2d ; */
+        background-color: #082644 ;
+        display: flex;
+        flex-direction: row;
+        padding-top: 90px;
+        
+    }
+    .wrapper{
+        background-color: #082644;
+    }
+
+    .button{
+        background-color: #3592e3;
+        margin-left: 35vw;
+    }
+    
+    .image{
+        width: 400px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .about_img{
+        margin-left: 30px;
+        width: 180px;
+        height: 240px;
+        /* border-radius: 40%; */
+        box-shadow: rgba(3, 158, 255, 0.48) 20px 15px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    }
+    
+    .content{
+        padding-top: 160px;
+        font-size: 25px;
+        color: #d1e6fa;
+        width: 900px;
+        
+    }
+    
+    .content p{
+        word-spacing: 4px ;
+        line-height: 1cm;
+        font-family: sans-serif;
+        font-family: cursive;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .about_bg{
+        position: relative;
+        width: 100vw;
+        /* height: 1800px; */
+        /* background-color: #061b2d ; */
+        background-color: #082644 ;
+        display: flex;
+        flex-direction: column;
+        padding-top: 90px;
+        
+    }
+    .page_heading_About{
+        background-color:#082644;
+        font-size: 40px;
+        text-align: center;
+        color: #d1e6fa;
+
+    }
+
+    .wrapper{
+        background-color: #082644;
+    }
+
+    .button{
+        background-color: #3592e3;
+        margin-left: 35vw;
+    }
+    
+    .image{
+        width: 60vw;
+        display: flex;
+        justify-content: center;
+        margin-left: 30vw;
+    }
+    
+    .about_img{
+        /* margin-left: 30px; */
+        width: 200px;
+        height: 240px;
+        border-radius: 50%;
+        /* border-radius: 40%; */
+        box-shadow: rgba(3, 158, 255, 0.48) 20px 15px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    }
+    
+    .content{
+        padding-top: 5vh;
+        font-size: 25px;
+        color: #d1e6fa;
+        width: 90vw;
+        margin-left: 10vw;
+        
+    }
+    
+    .content p{
+        word-spacing: 4px ;
+        line-height: 1cm;
+        font-family: sans-serif;
+        font-family: cursive;
+    }
+
+}
+

@@ -1,0 +1,44 @@
+.container2{
+    display: flex;
+    position: absolute;
+    /* margin-left: 50px; */
+    padding: 0;
+    background: linear-gradient(135deg, rgba(76, 146, 251, 0.167), rgba(97, 198, 242, 0.322));
+    width: 400px;
+    height: 500px;
+    justify-content: center;
+  }
+
+  .container2 .heading{
+    margin-top: 400px;
+    font-size: 50px;
+    font-family: Consolas;
+  }
+  
+  .circularProgress {
+    margin-top: 30px;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color:  white;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+  
+  }
+  
+  .circularProgress::before {
+    content: " ";
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    background: #061b2d;
+    border-radius: 50%;
+  }
+  
+  .value{
+    position: relative;
+    font-family: sans-serif;
+    font-size: 50px;
+    color: #3592e3;
+  }

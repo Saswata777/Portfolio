@@ -1,0 +1,46 @@
+@media (min-width:1200px){
+    .skills{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100vw;
+        height: 2000px;
+        background-color: #061b2d ;
+        color: white;
+        display: flex;
+        padding-top: 90px;
+    }
+    
+    .page_heading_Skill{
+        /* visibility: hidden; */
+        background-color:#061b2d;
+    }
+
+}
+
+@media (max-width:1200px){
+    .skills{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100vw;
+        height: 2000px;
+        background-color: #061b2d ;
+        color: white;
+        display: flex;
+        padding-top: 90px;
+    }
+    
+    .page_heading_Skill{
+        /* visibility: hidden; */
+        background-color:#061b2d;
+        font-size: 40px;
+        text-align: center;
+        color: #d1e6fa;
+        border: none;
+
+    }
+}
+
+
+

@@ -1,0 +1,106 @@
+@media (min-width:1200px){
+  .container2{
+    display: flex;
+    position: absolute;
+    /* margin-left: 50px; */
+    padding: 0;
+    background: linear-gradient(135deg, rgba(76, 146, 251, 0.167), rgba(97, 198, 242, 0.322));
+    width: 400px;
+    height: 500px;
+    justify-content: center;
+    margin-left: 600px;
+    margin-top: 20px;
+  
+  }
+
+  .container2 .heading2{
+    margin-top: 400px;
+    font-size: 50px;
+    font-family: Consolas;
+  }
+  
+  .circularProgress2 {
+    margin-top: 30px;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color:  white;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+  
+  }
+  
+  .circularProgress2::before {
+    content: " ";
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    background: #061b2d;
+    border-radius: 50%;
+  }
+  
+  .value2{
+    position: relative;
+    font-family: sans-serif;
+    font-size: 50px;
+    color: #3592e3;
+  }
+}
+
+@media (max-width:1200px){
+  .container2{
+    display: flex;
+    /* justify-content: center; */
+    position: relative;
+    padding: 0;
+    background: linear-gradient(135deg, rgba(76, 146, 251, 0.167), rgba(97, 198, 242, 0.322));
+    width: 35%;
+    height: 20%;
+    /* justify-content: center; */
+    margin-top: 10%;
+    left: 20%;
+  }
+
+  
+  
+  .container2 .circularProgress2 {
+    margin-top: 30px;
+    left: 20%;
+    position: relative;
+    width: 100%;
+    height: 60%;
+    background-color:  white;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+  
+  }
+
+  
+  
+  .circularProgress2::before {
+    content: " ";
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    background: #061b2d;
+    border-radius: 50%;
+  }
+  
+  .value2{
+    position: relative;
+    font-family: sans-serif;
+    font-size: 250%;
+    color: #3592e3;
+  }
+  
+  .container2 .heading2{
+    display: flex;
+    position: relative;
+    top: 80%;
+    right: 30%;      
+    font-size: 50px;
+    font-family: Consolas;
+  }
+}
